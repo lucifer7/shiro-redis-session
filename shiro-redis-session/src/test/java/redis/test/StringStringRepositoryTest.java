@@ -25,7 +25,7 @@ public class StringStringRepositoryTest extends  AbstractJUnit4SpringContextTest
 
 	@Before
 	public void setUp() {
-		ShiroSession session = new ShiroSession("127.0.0.1");
+		ShiroSession session = new ShiroSession("10.200.157.50");
 
 		session.setId("aaaa111111111");
 		session.setExpired(false);
